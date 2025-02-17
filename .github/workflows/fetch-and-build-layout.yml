@@ -6,22 +6,23 @@ on:
       layout_id:
         description: "Layout id available in URL https://configure.zsa.io/voyager/layouts/[ID_IS_HERE]/latest"
         required: true
-        default: "g7jjw"
+        default: "wwGwq"
       layout_geometry:
         description: "Keyboard type"
         type: choice
         options:
-          - voyager
-          - moonlander
+          # - voyager
+          # - moonlander
           - ergodox_ez
-          - ergodox_ez/m32u4/glow
-          - ergodox_ez/m32u4/shine
-          - ergodox_ez/stm32
-          - ergodox_ez/stm32/glow
-          - ergodox_ez/stm32/shine
-          - planck_ez
-          - planck_ez/glow
-        default: voyager
+          # - ergodox_ez/m32u4/glow
+          # - ergodox_ez/m32u4/shine
+          # - ergodox_ez/stm32
+          # - ergodox_ez/stm32/glow
+          # - ergodox_ez/stm32/shine
+          # - planck_ez
+          # - planck_ez/glow
+        # default: voyager
+        default: ergodox_ez
 
 permissions:
   contents: write
